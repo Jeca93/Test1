@@ -1,0 +1,16 @@
+let F 
+let C= 32
+let ToF
+let ToC 
+
+function temperaturaFarenhajt(C){
+    ToF= ToC * 1.8 + 32
+    return ToF;
+}
+console.log(temperaturaFarenhajt);
+
+function temperaturaCelzijus(F){
+     ToC= ToF / 1.8 +32
+     return ToC;
+}
+console.log(temperaturaCelzijus);
